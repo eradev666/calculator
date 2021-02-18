@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    padding: 12px 8px;
+    border: 2px solid grey;
+    border-radius: 6.5px;
+    background-color: #eeeeee;
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+    background-color: #ffffff;
+}
+
+.output {
+    padding: 5px;
+    text-align: right;
+    font-size: 16px;
+    border: none;
+    cursor: default;
+}
+
+.output:focus {
+    outline: none;
+}
+
+.input-button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.15s;
+    user-select: none;
+}
+
+.input-button:hover {
+    background-color: #bbbbbb;
+}
+
+.input-button:active {
+    transition: none;
+    background-color: #ffffff;
+}
+
+.input-button:disabled {
+    cursor: default;
+}
